@@ -1,0 +1,28 @@
+{
+  "name": "au-hello-token",
+  "version": "1.0.0",
+  "description": "[Alchemy University](https://university.alchemy.com/overview/ethereum) - [How to Deploy Your Own ERC-20 Token](https://university.alchemy.com/course/ethereum/md/614ba41acd2a86000413f77a)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rkfcheung/au-hello-token.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rkfcheung/au-hello-token/issues"
+  },
+  "homepage": "https://github.com/rkfcheung/au-hello-token#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.9"
+  }
+}
